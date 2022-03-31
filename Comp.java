@@ -3,6 +3,7 @@ package comp;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Comp {
 
@@ -131,8 +132,14 @@ public class Comp {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
+        Reader s = new Reader();
+
+        
+        }
     }
 
-}
+    
+
+
