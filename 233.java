@@ -3,6 +3,7 @@ package comp;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
+
 public class Comp {
 
     static class Reader {
@@ -138,31 +139,26 @@ public class Comp {
          From a given number, get the lowest number that when adding its digits gives the same number.
          */
         int num = s.nextInt();
-        while (num != 0) {
+        while (true) {
 
-            if (num < 10) {
-                System.out.println(num);
-            } else { 
-                int[] valores = new int[(int) Math.ceil((double)num / 9)];
-               
-                for (int i = valores.length-1; i >=1; i--) {                    
-                    valores[i]=9;                    
-                }
-                int start = 0;
-                if ((num % 9) == 0) {
-                    start++;
-                }
-                valores[0] = num % 9;
-                String res = "";
-                for(int i = start; i<valores.length; i++){
-                    res += valores[i];
-                }
-                System.out.println(res);
+            if (num == 0) {
+                break;
             }
+
+            int res = num % 9;
+            int tot = num / 9;
+
+            if (res > 0) {
+                System.out.print(res);
+            }
+            for (int i = 0; i < tot; i++) {
+                System.out.print(9);
+            }
+            System.out.println("");
+
             num = s.nextInt();
 
         }
-        
 
     }
 
