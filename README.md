@@ -40,3 +40,7 @@ Soluciones a los retos de programación competitiva proporcionados por acpetaelr
 |[565](/565.java)|[Aplausos](https://www.aceptaelreto.com/problem/statement.php?id=565)|
 |[574](/574.java)|[Gritos en Halloween](https://www.aceptaelreto.com/problem/statement.php?id=574)|
 |[600](/600.java)|[Puntos de silla](https://www.aceptaelreto.com/problem/statement.php?id=600)|
+  
+  
+
+## Retos no solucionados
