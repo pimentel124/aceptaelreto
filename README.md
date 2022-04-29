@@ -44,3 +44,10 @@ Soluciones a los retos de programación competitiva proporcionados por acpetaelr
   
 
 ## Retos no solucionados
+
+|Reto|Título|
+| :---: | :---: |
+|[508n](/508n.java)|[Barrenillo](https://www.aceptaelreto.com/problem/statement.php?id=508)|
+|[553n](/553n.java)|[Traduciendo los apuntes](https://www.aceptaelreto.com/problem/statement.php?id=553)|
+|[592n](/592n.java)|[Anteproyecto de los presupuestos](https://www.aceptaelreto.com/problem/statement.php?id=592)|
+|[600n](/600n.java)|[Puntos de silla](https://www.aceptaelreto.com/problem/statement.php?id=600)|
