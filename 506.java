@@ -142,8 +142,6 @@ public class Comp {
             for (int j = 0; j < num.length; j++) {
                 num[j] = Integer.parseInt(str[j]);
             }
-            if ((num[0]>0 && num[0]<=250)&&(num[1]>0 && num[1]<=250)) {
-                
                 if (num[0]>=num[1]) {
                     System.out.println("BIEN");
                     
@@ -151,9 +149,6 @@ public class Comp {
                     System.out.println("MAL");
                 }
                 
-            }else{
-                System.out.println("MAL");
-            }
         }
         
     }
